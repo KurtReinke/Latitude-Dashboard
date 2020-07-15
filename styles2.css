@@ -1,0 +1,104 @@
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial;
+  padding: 0px 10px;
+}
+
+/* Links inside the navbar */
+ .navbar a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.lat {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 14px;
+  margin-right: 10px;
+  margin-left: 200px;
+  display: inline-block;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(32, 149, 155);
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    font-family: serif;
+
+
+  }
+
+}
+
+.lat-nav {
+  font-size: 30px;
+  padding: 28px 16px;
+  color: white;
+  text-align: center;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  padding: 14px 16px;
+  color:black;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 28px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+/*.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: Black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
